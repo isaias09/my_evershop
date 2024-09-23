@@ -4,8 +4,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "evershop build --skip-minify",
+    "setup": "evershop install",
+    "build": "evershop build",
     "start": "evershop start",
+    "start:debug": "evershop start --debug",
+    "dev": "evershop dev",
     "user:create": "evershop user:create",
     "user:changePassword": "evershop user:changePassword"
   },
